@@ -58,5 +58,5 @@ Live Demo: https://vibeathon-frontend-teal.vercel.app/
   
 Test Credentials (Staff/Manager):  
 
-Email: manager@vibeathon.com, chef@vibeathon.com, waiter@vibeathon.com
+Email: manager@vibeathon.com, chef@vibeathon.com, waiter@vibeathon.com  
 Password: password123
