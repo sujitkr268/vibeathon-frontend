@@ -22,7 +22,7 @@ type MenuItem = {
   category: string;
   isAvailable: boolean;
   description: string;
-  image: string;
+  image_url: string;
 };
 
 type Order = {
@@ -71,7 +71,7 @@ const initialMenuItems: MenuItem[] = [
     category: 'Starters',
     isAvailable: true,
     description: 'Charcoal-grilled chicken tikka infused with black truffle oil, served with saffron mint chutney.',
-    image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80',
+    image_url: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80',
   },
   {
     id: 2,
@@ -80,7 +80,7 @@ const initialMenuItems: MenuItem[] = [
     category: 'Mains',
     isAvailable: true,
     description: 'Slow-braised lamb shank in rich tomato-butter gravy, finished with smoked fenugreek leaves.',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80',
+    image_url: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80',
   },
   {
     id: 3,
@@ -89,7 +89,7 @@ const initialMenuItems: MenuItem[] = [
     category: 'Mains',
     isAvailable: true,
     description: 'Carnaroli rice cooked in Kashmir saffron broth with aged Parmesan and roasted cashew crumble.',
-    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80',
+    image_url: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80',
   },
   {
     id: 4,
@@ -98,7 +98,7 @@ const initialMenuItems: MenuItem[] = [
     category: 'Desserts',
     isAvailable: false,
     description: 'New York-style cheesecake with gulab jamun compote, cardamom foam, and pistachio brittle.',
-    image: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80',
+    image_url: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80',
   },
   {
     id: 5,
@@ -107,7 +107,7 @@ const initialMenuItems: MenuItem[] = [
     category: 'Drinks',
     isAvailable: true,
     description: 'Alphonso mango blended with Greek yogurt, a hint of cardamom, and topped with saffron strands.',
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?w=600&q=80',
+    image_url: 'https://images.unsplash.com/photo-1546173159-315724a31696?w=600&q=80',
   },
 ];
 
@@ -681,7 +681,7 @@ export default function HomePage() {
                   >
                     <div className="relative h-52 overflow-hidden">
                       <img
-                        src={item.image}
+                        src={item.image_url}
                         alt={item.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                       />
@@ -993,7 +993,7 @@ export default function HomePage() {
                   >
                     <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
                       <img
-                        src={item.image}
+                        src={item.image_url}
                         alt={item.name}
                         className="w-full h-full object-cover"
                       />
