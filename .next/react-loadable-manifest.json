@@ -1,0 +1,24 @@
+{
+  "node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js": {
+    "id": "node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js",
+    "files": []
+  },
+  "node_modules\\@react-three\\drei\\web\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": "node_modules\\@react-three\\drei\\web\\FaceLandmarker.js -> @mediapipe/tasks-vision",
+    "files": [
+      "static/chunks/node_modules_mediapipe_tasks-vision_vision_bundle_mjs.js"
+    ]
+  },
+  "pages\\index.tsx -> @react-three/drei": {
+    "id": "pages\\index.tsx -> @react-three/drei",
+    "files": [
+      "static/chunks/node_modules_react-three_drei_index_js.js"
+    ]
+  },
+  "pages\\index.tsx -> @react-three/fiber": {
+    "id": "pages\\index.tsx -> @react-three/fiber",
+    "files": [
+      "static/chunks/node_modules_react-three_fiber_dist_react-three-fiber_esm_js.js"
+    ]
+  }
+}
