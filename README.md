@@ -52,6 +52,8 @@ We implemented a custom Rules-Based AI Engine in the Management Dashboard. Inste
 
 Inventory Prediction: Alerts managers when items (like Saffron Risotto) will run out by 8 PM based on current depletion velocity.  
 Operational Insights: Calculates projected revenue lift (e.g., +18%) and model confidence scores (96%) to help managers make data-driven decisions instantly.  
+
+Its a great esxperience to collaborate with other team members and work along side with the as team,we learn about the true meaning of the team work .It was a great experience to work with them.
   
 🚀 Hosted Application Link  
 Live Demo: https://vibeathon-frontend-teal.vercel.app/  
